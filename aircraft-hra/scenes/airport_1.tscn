@@ -1,0 +1,81 @@
+[gd_scene format=4 uid="uid://bi5dqlgydtot6"]
+
+[ext_resource type="Texture2D" uid="uid://dirl5tr1ysomx" path="res://sprites/Untitled 2 2.png" id="1_njgx6"]
+[ext_resource type="Texture2D" uid="uid://dfgdmhj25t0qg" path="res://sprites/Untitled 2 3.png" id="2_8dim3"]
+[ext_resource type="Texture2D" uid="uid://ckkw8dnbduw1r" path="res://sprites/Untitled 2.png" id="3_l5s0p"]
+[ext_resource type="Texture2D" uid="uid://cb1ffwgrjjoji" path="res://sprites/Untitled.png" id="4_plns3"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ot8wx"]
+texture = ExtResource("1_njgx6")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wf4ao"]
+texture = ExtResource("2_8dim3")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kfr1a"]
+texture = ExtResource("3_l5s0p")
+texture_region_size = Vector2i(64, 64)
+0:1/0 = 0
+1:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:1/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+3:3/0 = 0
+2:3/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+3:1/0 = 0
+3:0/0 = 0
+2:0/0 = 0
+1:0/0 = 0
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_gyjbk"]
+sources/0 = SubResource("TileSetAtlasSource_ot8wx")
+sources/1 = SubResource("TileSetAtlasSource_wf4ao")
+sources/2 = SubResource("TileSetAtlasSource_kfr1a")
+
+[node name="Node2D" type="Node2D" unique_id=203675495]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=68048017]
+tile_map_data = PackedByteArray("AAD//wUAAAAAAAAAAAD//wkAAAAAAAAAAAD//w0AAAAAAAAAAAD//xEAAQAAAAAAAAD//wEAAgAAAAAAAAD///3/AgAAAAAAAAD///n/AgAAAAAAAAD///X/AAAAAAAAAAD///H/AAAAAAAAAAD//+3/AAAAAAAAAAD//+n/AAAAAAAAAAD//+X/AQAAAAAAACA=")
+tile_set = SubResource("TileSet_gyjbk")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1198566603]
+position = Vector2(-8, 1)
+texture = ExtResource("4_plns3")
