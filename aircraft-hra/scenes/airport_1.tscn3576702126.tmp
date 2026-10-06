@@ -137,9 +137,9 @@ E - akce"
 [node name="StatusLabel" type="Label" parent="Aircraft/UI" unique_id=1843250817]
 anchors_preset = -1
 offset_left = 8.0
-offset_top = 928.0
+offset_top = 1048.0
 offset_right = 228.0
-offset_bottom = 958.0
+offset_bottom = 1078.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.19607843)
 theme_override_fonts/font = ExtResource("6_l5s0p")
